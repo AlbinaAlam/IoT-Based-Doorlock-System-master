@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bck1"
+    tools:context="com.jucse.doorlockfingerprintauthentication.LoginActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="2dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/username"
+        android:hint="Mail ID"/>
+    <EditText
+        android:id="@+id/password"
+        android:hint="@string/password_hint"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/login_button"
+        android:text="@string/login_now"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#04ea00"
+        android:textColor="#ffffff"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
